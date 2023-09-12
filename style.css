@@ -1,0 +1,318 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #352F44;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #352F44;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #352F44;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #352F44;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #352F44;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #2e3905;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #040D12;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #2e3905;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+
+}
+
+.schoolarships-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kartu-beasiswa {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-beasiswa img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.kartu-beasiswa p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 15px;
+    display : flex;
+    text-align: center;
+    color: #352F44;
+}
+
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+/* halaman Sign Up */
+
+.halaman2signup-bg {
+    background-image: url(https://img.freepik.com/free-photo/large-modern-office-building_1127-3072.jpg?w=740&t=st=1694541360~exp=1694541960~hmac=72381838ca53b5023b6dfe82940c19a1518cad090c4fb432670015ef59bd9de8); /* Gantilah 'nama-gambar.jpg' dengan path ke gambar latar belakang Anda */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.kolomhal2 {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+
+.kolomhal2 .deskripsihal2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #352F44;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #352F44;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background: #352F44;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+}
+
+button[type="submit"]:hover {
+    background: #2e3905;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991.98px) {
+    .kolom {
+        text-align: center;
+        height: auto; /* hapus tinggi layar kecil */
+    }
+
+    input[type="email"] {
+        width: 90%;
+    }
+
+    button[type="submit"] {
+        width: 90%;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #352F44;
+    width: 100%;
+    line-height: 50px; 
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float:none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto ;
+    }
+
+    
+
+}
